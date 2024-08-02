@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Aug  2 17:09:44 2024
+# Process ID: 26056
+# Current directory: C:/Users/marti/OneDrive/Documents/RTL_design/study_project/study_project.runs/impl_1
+# Command line: vivado.exe -log segment_2_numbers.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source segment_2_numbers.tcl -notrace
+# Log file: C:/Users/marti/OneDrive/Documents/RTL_design/study_project/study_project.runs/impl_1/segment_2_numbers.vdi
+# Journal file: C:/Users/marti/OneDrive/Documents/RTL_design/study_project/study_project.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source segment_2_numbers.tcl -notrace

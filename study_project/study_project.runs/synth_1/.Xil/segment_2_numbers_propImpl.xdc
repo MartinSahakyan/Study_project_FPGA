@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:C:/Users/marti/OneDrive/Documents/RTL_design/study_project/study_project.srcs/constrs_1/new/Segment_2_numbers.xdc rfile:../../../study_project.srcs/constrs_1/new/Segment_2_numbers.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN N6 [get_ports Segment_1]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN M6 [get_ports Segment_2]

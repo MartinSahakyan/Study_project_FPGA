@@ -1,0 +1,6 @@
+set_property PACKAGE_PIN P4 [get_ports i_mux_in[0]]
+set_property PACKAGE_PIN P3 [get_ports i_mux_in[1]]
+set_property PACKAGE_PIN U9 [get_ports i_mux_sel]
+set_property PACKAGE_PIN K6 [get_ports o_mux_out]
+set_property IOSTANDARD LVCMOS33 [get_ports i_mux_*]
+set_property IOSTANDARD LVCMOS33 [get_ports o_mux_*]
