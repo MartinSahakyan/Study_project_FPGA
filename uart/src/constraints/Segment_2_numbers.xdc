@@ -1,0 +1,30 @@
+set_property PACKAGE_PIN E3 [get_ports i_clk]
+set_property IOSTANDARD LVCMOS33 [get_ports i_clk]
+create_clock -period 10.0 -name CLK100 [get_ports i_clk]
+
+set_property PACKAGE_PIN L3 [get_ports o_led_segment[0]]
+set_property PACKAGE_PIN N1 [get_ports o_led_segment[1]]
+set_property PACKAGE_PIN L5 [get_ports o_led_segment[2]]
+set_property PACKAGE_PIN L4 [get_ports o_led_segment[3]]
+set_property PACKAGE_PIN K3 [get_ports o_led_segment[4]]
+set_property PACKAGE_PIN M2 [get_ports o_led_segment[5]]
+set_property PACKAGE_PIN L6 [get_ports o_led_segment[6]]
+set_property IOSTANDARD LVCMOS33 [get_ports o_led_segment[*]]
+
+set_property PACKAGE_PIN N6 [get_ports o_led_digit[0]]
+set_property PACKAGE_PIN M6 [get_ports o_led_digit[1]]
+set_property PACKAGE_PIN M3 [get_ports o_led_digit[2]]
+set_property PACKAGE_PIN N5 [get_ports o_led_digit[3]]
+set_property PACKAGE_PIN N2 [get_ports o_led_digit_unused[0]]
+set_property PACKAGE_PIN N4 [get_ports o_led_digit_unused[1]]
+set_property PACKAGE_PIN L1 [get_ports o_led_digit_unused[2]]
+set_property PACKAGE_PIN M1 [get_ports o_led_digit_unused[3]]
+
+set_property IOSTANDARD LVCMOS33 [get_ports o_led_digit[*]]
+set_property IOSTANDARD LVCMOS33 [get_ports o_led_digit_unused[*]]
+
+set_property PACKAGE_PIN V10 [get_ports i_but_reset]
+set_property IOSTANDARD LVCMOS33 [get_ports i_but_reset]
+
+set_property PACKAGE_PIN E16 [get_ports i_but_play_stop]
+set_property IOSTANDARD LVCMOS33 [get_ports i_but_play_stop]
